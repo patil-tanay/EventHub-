@@ -285,7 +285,7 @@ const OrderModal: React.FC<CashOnDeliveryModalProps> = ({
                 type="submit"
                 className="w-60 py-3 bg-yellow-400 rounded-md font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-700"
               >
-                Place Order
+                Register
               </button>
             </div>
           </form>

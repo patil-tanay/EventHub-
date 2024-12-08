@@ -73,6 +73,10 @@
   scroll-behavior: smooth;
 }
 
+nextjs-portal {
+  display: none;
+}
+
 body {
   font-family: var(--font-poppins);
 }

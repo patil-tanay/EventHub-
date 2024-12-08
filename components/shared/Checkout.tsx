@@ -51,7 +51,7 @@ const Checkout = ({ event, userId }: { event: any; userId: string }) => {
         className="button sm:w-fit"
         onClick={() => openModal()}
       >
-        {event?.isFree ? "Get Ticket" : "Buy Ticket"}
+        {event?.isFree ? "Register" : "Register for Event"}
       </Button>
       {isModalOpen && (
         <OrderModal
